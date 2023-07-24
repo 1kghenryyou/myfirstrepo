@@ -16,10 +16,9 @@
                 <h1>chatter|app</h1>
             </div>
 
-        
             <h2>Favorites</h2> 
             <ul class="channel-list">
-                <li><span>MeetUp</span> <small>16 July 2023</small></li>
+                <li class="selected"><span>MeetUp</span> <small>16 July 2023</small></li>
                 <li><span>Oktoberfest</span> <small>01:06</small></li>
             </ul>
     
@@ -34,36 +33,37 @@
         <!--This is the chat log-->
         <section id="chat">
             <div class="headbar">
-                <h1>MeetUp</h1>
-                <button>Favorite</button>
+                <h1>MeetUp</h1><button>Favorite</button>
             </div>
 
             <div class="chat-area">
                 <div class="message">
                     <h2>Harry Potter</h2>
                     <p>Hey, I am wondering what is the most resistant bacteria in on Earth?</p>
-                    <small>08:40</small>
                 </div>
+                <small>08:40</small>
                     
                 <div class="message">
                     <h2>Ron Weasley</h2>
                     <p>Is that important? I thought we should prepare the potions!</p>
-                    <small>08.45</small>
                 </div>
+                <small>08.45</small>
+                
                     
-                <div class="message">
+                <div class="message-self">
                     <h2>Hermione Granger</h2>
                     <p>I already prepared everything for you all.</p>
-                    <small>08.46</small>
-                </div>     
+                </div> 
+                <small>08.46</small>
+                    
             </div>
             
         </section>
         <br>
 
         <!--This is where the user type in his/her messages-->
-        <div>
-            <input id="user-input" type="text" placeholder="Type your message here"><button>Send</button>
+        <div id="user-input" >
+            <input type="text" placeholder="Type your message here"><button>Send</button>
         </div>
 
     </body>
