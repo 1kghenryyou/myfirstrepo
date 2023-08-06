@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=devide-width, initial-scale=1.0">
-        <title>chatter|app</title>
+        <title>chatter|App</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
     </head>
@@ -12,59 +12,79 @@
         <!--This is grouping of channels under categories-->
         <section id="channel-area">
             <div class="headbar">
-                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d0bea147-2598-474c-8176-651a8c00b41b/df87clj-674162df-9af1-48fe-a8b1-58383ea45e57.png/v1/fill/w_1280,h_1280/kawaii_duck_png_by_milosii_df87clj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2QwYmVhMTQ3LTI1OTgtNDc0Yy04MTc2LTY1MWE4YzAwYjQxYlwvZGY4N2Nsai02NzQxNjJkZi05YWYxLTQ4ZmUtYThiMS01ODM4M2VhNDVlNTcucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.whRL47laJU_MFPCt52Q5rrhaMOJfTGYXMkdDK1VS_8s" alt="app-logo" style="width: 56px; height: 56px;">
-                <h1>chatter|app</h1>
+                <img id="logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d0bea147-2598-474c-8176-651a8c00b41b/df87clj-674162df-9af1-48fe-a8b1-58383ea45e57.png/v1/fill/w_1280,h_1280/kawaii_duck_png_by_milosii_df87clj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2QwYmVhMTQ3LTI1OTgtNDc0Yy04MTc2LTY1MWE4YzAwYjQxYlwvZGY4N2Nsai02NzQxNjJkZi05YWYxLTQ4ZmUtYThiMS01ODM4M2VhNDVlNTcucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.whRL47laJU_MFPCt52Q5rrhaMOJfTGYXMkdDK1VS_8s" alt="logo" style="width: 56px; height: 56px;">
+                <h1 id="app-title">                    
+                    chatter | app
+                </h1>
             </div>
-
-            <h2>Favorites</h2> 
-            <ul class="channel-list">
-                <li class="selected"><span>MeetUp</span> <small>16 July 2023</small></li>
-                <li><span>Oktoberfest</span> <small>01:06</small></li>
-            </ul>
-    
-            <h2>Regular</h2>
-            <ul class="channel-list2">
-                <li><span>WeatherChannel</span> <small> Yesterday </small></li>
-                <li><span>SevenContinents</span> <small> 11 April 2023 </small></li>
-            </ul>            
+            
+            <div>
+                <h2>Favorites</h2> 
+                <ul class="channel-list">
+                    <li class="selected">
+                        <span class="channel-name">MeetUp</span> 
+                        <span class="timestamp">08:22</span>
+                    </li>
+                    <li>
+                        <span class="channel-name">Oktoberfest</span> 
+                        <span class="timestamp">01:06</span>
+                    </li>
+                </ul>
+        
+                <h2>Regular</h2>
+                <ul class="channel-list">
+                    <li>
+                        <span class="channel-name">WeatherChannel</span> 
+                        <span class="timestamp">Yesterday</span>
+                    </li>
+                    <li>
+                        <span class="channel-name">SevenContinents</span> 
+                        <span class="timestamp">11 April 2023</span>
+                    </li>
+                </ul>      
+            </div>
         </section>
         
         
         <!--This is the chat log-->
-        <section id="chat">
+        <section id="message-area">
             <div class="headbar">
-                <h1>MeetUp</h1><button>Favorite</button>
+                <h1>MeetUp</h1>
+                <button>Favorite</button>
             </div>
 
             <div class="chat-area">
-                <div class="message">
-                    <h2>Harry Potter</h2>
-                    <p>Hey, I am wondering what is the most resistant bacteria in on Earth?</p>
+                <div class="message message-incoming">
+                    <div class="message-content">
+                        <h3>Harry Potter</h3>
+                            <p>Hey, I am wondering what is the most resistant bacteria in on Earth?</p>
+                    </div>
+                    <span class="timestamp">08:40</span>
                 </div>
-                <small>08:40</small>
                     
-                <div class="message">
-                    <h2>Ron Weasley</h2>
-                    <p>Is that important? I thought we should prepare the potions!</p>
+                <div class="message message-incoming">
+                    <div class="message-content">
+                        <h3>Ron Weasley</h3>
+                        <p>Is that important? I thought we should prepare the potions!</p>
+                    </div>
+                    <span class="timestamp">08.45</span>
                 </div>
-                <small>08.45</small>
-                
                     
-                <div class="message-self">
-                    <h2>Hermione Granger</h2>
-                    <p>I already prepared everything for you all.</p>
-                </div> 
-                <small>08.46</small>
-                    
+                <div class="message message-outgoing">
+                    <div class="message-content">
+                        <h3>Hermione Granger</h3>
+                        <p>I already prepared everything for you all.</p>
+                    </div>
+                    <span class="timestamp">08.46</span>  
+                </div>                     
             </div>
             
-        </section>
-        <br>
-
         <!--This is where the user type in his/her messages-->
         <div id="user-input" >
-            <input type="text" placeholder="Type your message here"><button>Send</button>
+            <input type="text" name="message-input" placeholder="Type your message here">
+            <button>Send</button>
         </div>
+        </section>
 
     </body>
 </html>
