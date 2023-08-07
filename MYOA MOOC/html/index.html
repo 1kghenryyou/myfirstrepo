@@ -6,6 +6,7 @@
         <title>chatter|App</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
     </head>
 
     <body>
@@ -17,16 +18,24 @@
                     chatter | app
                 </h1>
             </div>
+            <a class="fab">+</a>
             
             <div>
                 <h2>Favorites</h2> 
                 <ul class="channel-list">
                     <li class="selected">
-                        <span class="channel-name">MeetUp</span> 
+                        <span class="icon-and-channel">
+                            <i class="material-icons">group</i>
+                            <span class="channel-name">MeetUp</span> 
+                        </span>
                         <span class="timestamp">08:22</span>
+
                     </li>
                     <li>
-                        <span class="channel-name">Oktoberfest</span> 
+                        <span class="icon-and-channel">
+                            <i class="material-icons">group</i>
+                            <span class="channel-name">Oktoberfest</span> 
+                        </span>
                         <span class="timestamp">01:06</span>
                     </li>
                 </ul>
@@ -34,23 +43,28 @@
                 <h2>Regular</h2>
                 <ul class="channel-list">
                     <li>
-                        <span class="channel-name">WeatherChannel</span> 
+                        <span class="icon-and-channel">
+                            <i class="material-icons">group</i>
+                            <span class="channel-name">WeatherChannel</span> 
+                        </span>
                         <span class="timestamp">Yesterday</span>
                     </li>
                     <li>
-                        <span class="channel-name">SevenContinents</span> 
+                        <span class="icon-and-channel">
+                            <i class="material-icons">group</i>
+                            <span class="channel-name">SevenContinents</span> 
+                        </span>
                         <span class="timestamp">11 April 2023</span>
                     </li>
                 </ul>      
             </div>
         </section>
         
-        
         <!--This is the chat log-->
         <section id="message-area">
             <div class="headbar">
                 <h1>MeetUp</h1>
-                <button>Favorite</button>
+                <a id="favorite-button" class="material-icons">favorite</a>
             </div>
 
             <div class="chat-area">
@@ -88,3 +102,5 @@
 
     </body>
 </html>
+
+
