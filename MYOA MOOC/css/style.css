@@ -147,14 +147,13 @@ h2 {
 #chat-area .message-wrapper-incoming{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #chat-area .message-wrapper-outgoing{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    align-self: flex-end;
+    align-items: flex-end;
     width: 75%;
 }
 
