@@ -103,9 +103,17 @@
             </div>
             
         <!--This is where the user type in his/her messages-->
-        <div id="user-input" >
-            <input type="text" name="message-input" placeholder="Type your message here">
-            <button>Send</button>
+        <div id="input-area" >
+            <i class="material-icons" id="emoticon-button">insert_emoticon</i>
+            <input
+                type="text"
+                id="message-input"
+                name="message-input"
+                minlength="1"
+                maxlength="500"
+                placeholder="... write your message"
+            />
+            <a class="material-icons button" id="send-button">send</a>
         </div>
         </section>
 
