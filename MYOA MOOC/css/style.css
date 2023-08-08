@@ -141,6 +141,7 @@ h2 {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 #chat-area .message-wrapper-incoming{
