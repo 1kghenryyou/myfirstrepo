@@ -142,7 +142,7 @@ h2 {
 #chat-area .message-wrapper{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: first baseline;
 }
 
 
@@ -154,6 +154,11 @@ h2 {
     color:#00838f;
     font-size: 14px;
     margin-bottom: 10px;
+}
+
+.message-content-time{
+    display: flex;
+    flex-direction: column;
 }
 
 .message-incoming{
