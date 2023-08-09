@@ -173,6 +173,7 @@ h2 {
     background-color:rgb(235, 189, 121);
     width: 65%;
     border-radius: 25px 25px 0px 25px;
+    align-content: right;
 }
 
 /*Time and date style*/
