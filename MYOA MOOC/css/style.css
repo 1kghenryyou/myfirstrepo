@@ -144,6 +144,7 @@ h2 {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+    flex-wrap: nowrap;
 }
 
 #chat-area .message-wrapper-incoming{
@@ -151,6 +152,7 @@ h2 {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .message-content h3{
