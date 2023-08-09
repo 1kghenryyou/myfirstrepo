@@ -144,18 +144,12 @@ h2 {
     padding: 10px;
 }
 
-#chat-area .message-wrapper-incoming{
+#chat-area .message-wrapper{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
 
-#chat-area .message-wrapper-outgoing{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    width: 75%;
-}
 
 .message-content h3{
     color:#00838f;
