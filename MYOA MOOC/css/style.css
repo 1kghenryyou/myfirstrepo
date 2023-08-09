@@ -139,19 +139,19 @@ h2 {
     padding: 10px;
 }
 
-#chat-area .message-wrapper-outgoing{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 75%;
-}
-
 #chat-area .message-wrapper-incoming{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
+    width: 75%;
+}
+
+#chat-area .message-wrapper-outgoing{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
     width: 75%;
 }
 
