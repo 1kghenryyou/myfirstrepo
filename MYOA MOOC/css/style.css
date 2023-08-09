@@ -133,10 +133,6 @@ h2 {
     display: inline;
 }
 
-.message{
-    width: 75%;
-}
-
 #chat-area{
     display: flex;
     flex-direction: column;
@@ -150,6 +146,10 @@ h2 {
     align-items: flex-end;
 }
 
+
+.message{
+    width: 75%;
+}
 
 .message-content h3{
     color:#00838f;
