@@ -184,11 +184,16 @@ h2 {
 
 /*--------------Message button--------------*/
 #input-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     left: 400px;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(228, 221, 221);
+    background-color: rgb(241, 237, 237);
 }
+
+
 
 #emoticon-button{
     width: 44px;
