@@ -187,6 +187,7 @@ h2 {
     left: 400px;
     padding: 5px;
     margin: 5px;
+    background-color: rgb(228, 221, 221);
 }
 
 #emoticon-button{
@@ -201,9 +202,7 @@ h2 {
     text-align: center;
     line-height: 44px;
 
-    position: absolute;
-    top: 44px;
-    right: 22px;
+    position: bottom;
 
     cursor: pointer;
 }
