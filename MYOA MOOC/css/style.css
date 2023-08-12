@@ -194,7 +194,7 @@ h2 {
 }
 
 #message-input{
-    width: 80%;
+    width: 92%;
     height: 35px;
 }
 
@@ -211,6 +211,6 @@ h2 {
     line-height: 44px;
 
     position: bottom;
-
+    margin-left: 10px;
     cursor: pointer;
 }
