@@ -154,7 +154,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.message-content-time{
+.message-content-time{ /*Another flexbox just to align Text and timestamp in column while excluding the icon*/
     display: flex;
     flex-direction: column;
 }
