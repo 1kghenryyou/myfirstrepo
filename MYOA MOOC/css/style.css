@@ -26,7 +26,7 @@ h1{
     background-color: rgb(218, 216, 216);
     color: #00838f;
     height: 70px;
-    line-height: 70px; /*This made the "MeetUp FAVOURITE" part to be at the middle*/
+    line-height: 70px; /*This made the "headbar" parts to be at the middle*/
     padding: 0px 22px 0px 22px;
 }
 
