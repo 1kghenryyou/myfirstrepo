@@ -145,7 +145,7 @@ h2 {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    width: 100%;
+    width: 99%;
 }
 
 .message-content h3{
