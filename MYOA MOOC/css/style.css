@@ -193,7 +193,10 @@ h2 {
     background-color: rgb(241, 237, 237);
 }
 
-
+#message-input{
+    width: 80%;
+    height: 35px;
+}
 
 #emoticon-button{
     width: 44px;
