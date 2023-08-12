@@ -21,7 +21,7 @@ h1{
     display: inline;
 }
 
-/*----------App bar style----------*/
+/*--------------App bar style--------------*/
 .headbar{
     background-color: rgb(218, 216, 216);
     color: #00838f;
@@ -48,7 +48,7 @@ h1{
     margin-left: 40px;
 }
 
-/*----------Channels list style----------*/
+/*--------------Channels list style--------------*/
 #channel-area{
     position: left;
     width: 399px; 
@@ -118,7 +118,7 @@ h2 {
     border-right: 3px solid #00838f;
 }
 
-/*----------Message style----------*/
+/*--------------Message style--------------*/
 #message-area{
     left: 400px;
     width: calc(100% - 400px);
@@ -175,14 +175,14 @@ h2 {
     border-radius: 25px 25px 0px 25px;
 }
 
-/*----------Time and date style----------*/
+/*--------------Time and date style--------------*/
 .timestamp{
     font-size: normal;
     color: #666666;
     margin-left: 10px;
 }
 
-/*----------Message button----------*/
+/*--------------Message button--------------*/
 #input-area{
     left: 400px;
     padding: 5px;
