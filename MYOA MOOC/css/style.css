@@ -159,7 +159,7 @@ h2 {
     flex-direction: column;
 }
 
-.message-incoming{ /*Style the words of incoming messages*/
+.message-incoming{ /*Style the content of incoming messages*/
     font-size: medium;
     padding: 10px;
     margin: 10px;
@@ -167,7 +167,7 @@ h2 {
     border-radius: 25px 25px 25px 0px;
 }
 
-.message-outgoing{ /*Style the words of outgoing messages*/
+.message-outgoing{ /*Style the content of outgoing messages*/
     font-size: medium;
     padding: 10px;
     margin: 10px;
